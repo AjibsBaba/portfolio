@@ -1,7 +1,7 @@
 <template>
 <div>
   <nav class="navbar navbar-light bg-light">
-    <div class="container-fluid">
+    <div class="container">
       <a class="navbar-brand">AjibsBaba</a>
     </div>
   </nav>
