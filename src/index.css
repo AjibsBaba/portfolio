@@ -1,3 +1,22 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;800&display=swap');
+
+.lomo-brand {
+    font-family: 'Poppins', sans-serif;
+}
+
+.bg-trans {
+    background-color: white;
+}
+
+.nav-link {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: #3B3B3B;
+}
+
+.btn-warning {
+    background-color: #FFB037;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
