@@ -1,28 +1,27 @@
 <template>
   <div id="app">
     <nav-bar/>
+    <landing/>
   </div>
 </template>
 
 <script>
 
 import NavBar from "@/components/NavBar";
+import Landing from "@/components/Landing";
 
 export default {
   name: 'App',
   components: {
-    NavBar
+    NavBar,
+    Landing,
   }
 }
 </script>
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  background-color: #030303;
 }
 </style>
