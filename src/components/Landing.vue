@@ -1,12 +1,25 @@
 <template>
 <div class="container">
-  <div class="position-absolute top-50 translate-middle-y">
-    <h1 class="text-wrap" style="width: 22rem">Portfolio Of Samuel Ajibade.</h1>
-    <h2 class="mt-2 text-wrap" style="width: 18rem">Backend , Native Android, Data Analytics, API development, Deep Learning.</h2>
-    <a href="https://drive.google.com/file/d/1eqvXKmCCloOJTI4T0RV6Wk-ISfO2yR_4/view?usp=sharing" download>
-      <button class="btn btn-warning text-white mt-4" type="button">Resume</button>
-    </a>
+  <div class="row">
+    <div class="col port-col">
+      <div class="position-absolute top-50 translate-middle-y">
+        <h1 class="text-wrap" style="width: 22rem">Portfolio Of Samuel Ajibade.</h1>
+        <h2 class="text-wrap" style="width: 25rem">Backend , Native Android, Data Analytics, API development, Deep Learning.</h2>
+        <a href="https://drive.google.com/file/d/1eqvXKmCCloOJTI4T0RV6Wk-ISfO2yR_4/view?usp=sharing" download>
+          <button class="btn btn-warning text-white" type="button">Resume</button>
+        </a>
+      </div>
+    </div>
+    <div class="col-md vec-col d-flex justify-content-center">
+      <img src="../assets/vector.svg" width="431" height="431" alt="Man Showing analytics" >
+    </div>
   </div>
+  <div class="row justify-content-md-center">
+    <div class="col-md-auto nav-btn">
+      Scroll Down
+    </div>
+  </div>
+
 </div>
 </template>
 
@@ -17,18 +30,38 @@ export default {
 </script>
 
 <style scoped>
+.nav-btn {
+  color: #FFB037;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: normal;
+  margin-top: 15px;
+}
+.port-col {
+  background-color: rgba(199, 199, 199, 0.1);
+
+}
+
+.vec-col {
+  background-color: #FFB037;
+  width: 637px;
+  height: 532px;
+}
+
 h2 {
   font-family: 'Poppins', sans-serif;
-  font-weight: lighter;
+  font-weight: normal;
+  font-size: 16px;
   color: #353535;
-  font-size: small;
   opacity: 71%;
+  margin-top: 26px;
 }
 
 h1 {
   font-family: 'Poppins', sans-serif;
   font-weight: bold;
   color: #3B3B3B;
+
 }
 
 .btn-warning {
@@ -36,6 +69,9 @@ h1 {
   font-family: 'Poppins', sans-serif;
   font-weight: bold;
   font-size: 14px;
+  width: 170px;
+  height: 52px;
+  margin-top: 30px;
 }
 
 .sec {
