@@ -5,12 +5,12 @@
       <div class="position-absolute top-50 translate-middle-y">
         <h1 class="text-wrap" style="width: 22rem">Portfolio Of Samuel Ajibade.</h1>
         <h2 class="text-wrap" style="width: 25rem">Backend , Native Android, Data Analytics, API development, Deep Learning.</h2>
-        <a href="https://drive.google.com/file/d/1eqvXKmCCloOJTI4T0RV6Wk-ISfO2yR_4/view?usp=sharing" download>
-          <button class="btn btn-warning text-white" type="button">Resume</button>
+        <a href="https://drive.google.com/file/d/1eqvXKmCCloOJTI4T0RV6Wk-ISfO2yR_4/view?usp=sharing" target="_blank" download>
+          <button class="btn btn-warning" type="button">Resume</button>
         </a>
       </div>
     </div>
-    <div class="col-md vec-col d-flex justify-content-center">
+    <div class="col-md vec-col">
       <img src="../assets/vector.svg" width="431" height="431" alt="Man Showing analytics" >
     </div>
   </div>
@@ -71,6 +71,13 @@ h1 {
   width: 170px;
   height: 52px;
   margin-top: 30px;
+  color: #FFFFFF;
+}
+
+.btn-warning:hover {
+  background-color: #FFFFFF;
+  border-color: #FFB037;
+  color: #FFB037;
 }
 
 .sec {
