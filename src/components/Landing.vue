@@ -3,7 +3,9 @@
   <div class="position-absolute top-50 translate-middle-y">
     <h1 class="text-wrap" style="width: 22rem">Portfolio Of Samuel Ajibade.</h1>
     <h2 class="mt-2 text-wrap" style="width: 18rem">Backend , Native Android, Data Analytics, API development, Deep Learning.</h2>
-    <button class="btn btn-warning text-white mt-4" type="button">Resume</button>
+    <a href="https://drive.google.com/file/d/1eqvXKmCCloOJTI4T0RV6Wk-ISfO2yR_4/view?usp=sharing" download>
+      <button class="btn btn-warning text-white mt-4" type="button">Resume</button>
+    </a>
   </div>
 </div>
 </template>
