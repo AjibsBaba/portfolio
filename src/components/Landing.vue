@@ -52,8 +52,7 @@ h2 {
   font-family: 'Poppins', sans-serif;
   font-weight: normal;
   font-size: 16px;
-  color: #353535;
-  opacity: 71%;
+  color: rgba(53, 53, 53, 0.71);
   margin-top: 26px;
 }
 
