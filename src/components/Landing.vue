@@ -2,7 +2,7 @@
 <div class="container">
   <div class="row">
     <div class="col port-col">
-      <div class="position-absolute top-50 translate-middle-y">
+      <div class="mt-custom">
         <h1 class="text-wrap" style="width: 22rem">Portfolio Of Samuel Ajibade.</h1>
         <h2 class="text-wrap" style="width: 25rem">Backend , Native Android, Data Analytics, API development, Deep Learning.</h2>
         <a href="https://drive.google.com/file/d/1eqvXKmCCloOJTI4T0RV6Wk-ISfO2yR_4/view?usp=sharing" target="_blank" download>
@@ -10,8 +10,10 @@
         </a>
       </div>
     </div>
-    <div class="col-md vec-col">
-      <img src="../assets/vector.svg" width="431" height="431" alt="Man Showing analytics" >
+    <div class="col vec-col">
+      <div class="img-block">
+        <img src="../assets/vector.svg" alt="Man Showing analytics" >
+      </div>
     </div>
   </div>
   <div class="row justify-content-md-center">
@@ -30,6 +32,15 @@ export default {
 </script>
 
 <style scoped>
+.img-block {
+  text-align: center;
+  display: block;
+  object-fit: contain;
+}
+.mt-custom {
+  margin-top: 200px;
+}
+
 .nav-btn {
   color: #FFB037;
   font-size: 16px;
@@ -39,6 +50,8 @@ export default {
 }
 .port-col {
   background-color: rgba(199, 199, 199, 0.1);
+  width: 575px;
+  height: 532px;
 
 }
 
