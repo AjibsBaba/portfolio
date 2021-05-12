@@ -2,6 +2,7 @@
   <div id="app">
     <nav-bar/>
     <landing/>
+
   </div>
 </template>
 
@@ -10,11 +11,13 @@
 import NavBar from "@/components/NavBar";
 import Landing from "@/components/Landing";
 
+
 export default {
   name: 'App',
   components: {
     NavBar,
     Landing,
+
   }
 }
 </script>
