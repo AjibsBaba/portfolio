@@ -50,14 +50,14 @@ export default {
 }
 .port-col {
   background-color: rgba(199, 199, 199, 0.1);
-  width: 575px;
+  width: 100%;
   height: 532px;
 
 }
 
 .vec-col {
   background-color: #FFB037;
-  width: 637px;
+  width: 100%;
   height: 532px;
 }
 
