@@ -2,7 +2,7 @@
   <div id="app">
     <nav-bar/>
     <landing/>
-
+    <Footer />
   </div>
 </template>
 
@@ -10,6 +10,7 @@
 
 import NavBar from "@/components/NavBar";
 import Landing from "@/components/Landing";
+import Footer from "@/components/Footer";
 
 
 export default {
@@ -17,7 +18,7 @@ export default {
   components: {
     NavBar,
     Landing,
-
+    Footer
   }
 }
 </script>
