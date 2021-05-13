@@ -3,21 +3,21 @@
   <footer class="footer-margin yellow p-1">
     <div class="container-fluid">
       <div class="container">
-        <div class="row justify-content-center">
+        <div class="row justify-content-md-center">
           <div class="col">
-            <h1 class="mt-3 text-white">About</h1>
-            <h4 class="mt-2 text-wrap" style="width: 9rem">Designed and developed with with Vue , Nuxt Js, CSS and Figma</h4>
+            <h1 class="text-white">About</h1>
+            <h4 class="mt-2 text-wrap" style="width: 9rem">Designed and developed with with Vue, CSS & Figma</h4>
             <h4 class="mt-2">developerLomo 2021</h4>
           </div>
           <div class="col">
-            <h1 class="mt-3 text-white">Explore</h1>
-            <h4 class="mt-2">Home</h4>
-            <h4 class="mt-2">About</h4>
-            <h4 class="mt-2">Projects</h4>
+            <h1 class="text-white">Explore</h1>
+            <h4 class="mt-1">Home</h4>
+            <h4 class="mt-1">About</h4>
+            <h4 class="mt-1">Projects</h4>
           </div>
           <div class="col">
-            <h1 class="mt-3 text-white">Social</h1>
-            <a href="#" class="fad-pad" target="_blank"><i class="fab fa-twitter"></i></a>
+            <h1 class="text-white">Social</h1>
+            <i class="fab fa-twitter fad-pad"></i>
             <i class="fab fa-github fad-pad"></i>
             <i class="fab fa-instagram fad-pad"></i>
           </div>
