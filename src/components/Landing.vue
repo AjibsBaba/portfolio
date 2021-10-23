@@ -34,7 +34,7 @@
     <div class="row mt-4 p-4">
       <div class="col-sm-6 align-self-center order-first">
         <div class="text-center">
-          <img src="../assets/diabetes.png" alt="Product info" class="img-fluid rounded">
+          <img src="../assets/diabetes-cover.png" alt="Product info" class="img-fluid rounded">
         </div>
       </div>
       <div class="col-sm-6 align-self-center">
