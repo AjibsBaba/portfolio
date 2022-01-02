@@ -110,25 +110,6 @@ export default {
   size: 16px;
   margin-bottom: 10px;
 }
-
-.link-custom:after {
-  content: '';
-  position: absolute;
-  width: 100%;
-  height: 3px;
-  bottom: 0;
-  left: 0;
-  background-color: #FFB037;
-  transform: scaleX(0);
-  transform-origin: bottom right;
-  transition: transform 0.3s;
-}
-
-.link-custom:after {
-   transform-origin: bottom left;
-   transform: scaleX(1);
- }
-
 .info {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
