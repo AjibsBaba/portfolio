@@ -1,7 +1,7 @@
 <template>
 <div class="container mt-custom2">
   <div class="row">
-    <div class="col-sm-8 align-self-center" style="height: 70vh">
+    <div class="col-sm-8 align-self-center">
       <div class="mt-custom">
         <h3 class="display-3">I design & develop products that makes people's lives <b>easier.</b></h3>
         <a href="mailto:samuelajibade22@gmail.com" target="_blank">
@@ -30,14 +30,14 @@
       <h3 class="main">Projects</h3>
       <h5 class="mt-1 subtitle">Most Recent Works</h5>
     </div>
-    <div class="row mt-4 p-4">
+    <div class="row mt-4">
       <div class="col-sm-6 align-self-center order-first">
         <div class="text-center">
-          <img src="#" alt="Product info" class="img-fluid rounded">
+          <img src="../assets/diabetesPredictionCover.svg" alt="Product info" class="img-fluid" style="border-radius: 20px;">
         </div>
       </div>
       <div class="col-sm-6 align-self-center">
-        <h3 class="product-name">diabetes-diagnosis</h3>
+        <h3 class="product-name">Diabetes Prediction App</h3>
         <p class="product-info">predicts diabetes mellitus type 2 with the aid of machine learning. Written in Flask, Html, CSS.</p>
         <a href="https://diabetes-diagnosis.herokuapp.com/" style="text-decoration: none">
           <h5 class="link-custom">
@@ -47,7 +47,7 @@
       </div>
     </div>
   </div>
-  <div class="row mt-4 p-4">
+  <div class="row mt-4">
     <div class="col-sm-6 align-self-center order-first">
       <h3 class="product-name">Acefood</h3>
       <p class="product-info">android application that predicts up to 10 classes of tomato disease using computer vision. Built with Tensorflow and Kotlin</p>
@@ -59,14 +59,14 @@
     </div>
     <div class="col-sm-6 align-self-center mt-4">
       <div class="text-center">
-        <img src="#" alt="Product info" class="img-fluid rounded">
+        <img src="../assets/acefoodCover.svg" alt="Acefood's Logo" class="img-fluid" style="border-radius: 20px;">
       </div>
     </div>
   </div>
-  <div class="row mt-4 p-4">
-    <div class="col-sm-6 align-self-center order-first p-4">
+  <div class="row mt-4">
+    <div class="col-sm-6 align-self-center order-first">
       <div class="text-center">
-        <img src="#" alt="Product info" class="img-fluid rounded">
+        <img src="../assets/cocoadecCover.svg" alt="Product info" class="img-fluid" style="border-radius: 20px;">
       </div>
     </div>
     <div class="col-sm-6 align-self-center">
@@ -77,19 +77,6 @@
       </a>
     </div>
   </div>
-<!--  <div class="row mt-4 p-4">-->
-<!--    <div class="col-sm-6 align-self-center order-first">-->
-<!--      <h3 class="product-name">Rouse</h3>-->
-<!--      <p class="product-info">User Interface Design of a Property Leasing Platform</p>-->
-<!--      <h5 class="link-custom">Coming to the playstore soon...</h5>-->
-<!--    </div>-->
-<!--    <div class="col-sm-6 align-self-center mt-4">-->
-<!--      <div class="text-center">-->
-<!--        <img src="../assets/rouseCover.png" alt="Product info" class="img-fluid rounded">-->
-<!--      </div>-->
-<!--    </div>-->
-<!--  </div>-->
-
 </div>
 </template>
 
@@ -203,6 +190,7 @@ h1 {
   width: 170px;
   height: 52px;
   margin-top: 12px;
+  margin-bottom: 20px;
   color: #FFFFFF;
   border-radius: 20px;
 }
