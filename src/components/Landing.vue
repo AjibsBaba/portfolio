@@ -63,7 +63,7 @@
       </div>
     </div>
   </div>
-  <div class="row mt-4" style="margin-bottom: 50px">
+  <div class="row mt-4 pb-4">
     <div class="col-sm-6 align-self-center order-first">
       <div class="text-center">
         <img src="../assets/cocoadecCover.svg" alt="Cocoadec Logo(Brown Variant)" class="img-fluid" style="border-radius: 20px;">
@@ -110,6 +110,25 @@ export default {
   size: 16px;
   margin-bottom: 10px;
 }
+
+.link-custom:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background-color: #FFB037;
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  transition: transform 0.3s;
+}
+
+.link-custom:after {
+   transform-origin: bottom left;
+   transform: scaleX(1);
+ }
+
 .info {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
