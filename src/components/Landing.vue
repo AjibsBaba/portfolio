@@ -1,28 +1,27 @@
 <template>
 <div class="container mt-custom2">
   <div class="row">
-    <div class="col port-col" style="height: 70vh">
-      <div class="mt-custom ms-1 p-4">
-        <h1 class="user-select-none">Portfolio Of Samuel Ajibade.</h1>
-        <h2 class="user-select-none">Backend , Native Android, API development, Deep Learning & some frontend things like VueJs</h2>
-        <a href="https://drive.google.com/file/d/1eqvXKmCCloOJTI4T0RV6Wk-ISfO2yR_4/view?usp=sharing" target="_blank" download>
-          <button class="btn btn-warning" type="button">Resume</button>
+    <div class="col-sm-8 align-self-center" style="height: 70vh">
+      <div class="mt-custom">
+        <h3 class="display-3">I design and develop products that makes people's lives <b>easier.</b></h3>
+        <a href="https://www.linkedin.com/in/ajibsbaba" target="_blank" download>
+          <button class="btn btn-warning" type="button">Hire me</button>
         </a>
       </div>
     </div>
   </div>
-  <div class="row" style="background-color: #FFB037">
+  <div class="row" style="background-color: #FFB037; border-radius: 20px;">
     <div class="col-sm-6 align-self-center">
       <div class="ms-1 p-3">
         <h1 class="name-tag">Hi, I'm Samuel</h1>
         <h3 class="mt-2 position-tag">Software Engineer</h3>
-        <p class="mt-3 info">A software engineer with hands-on experience in developing web and mobile applications using different architectures.
-          I currently work with Django, Flask, Django Rest Framework, Vue & Kotlin</p>
+        <p class="mt-3 info">A software engineer with hands-on experience in developing web and native mobile applications using different architectures.
+          I currently work Tensorflow to integrate machine learning in android applications</p>
       </div>
     </div>
     <div class="col-sm-6 align-self-center order-first p-4">
       <div class="text-center">
-        <img src="../assets/passport.jpg" class="img-fluid rounded" alt="Samuel Ajibade's Image">
+        <img src="../assets/passport.png" class="img-fluid rounded" alt="Samuel Ajibade's Image">
       </div>
     </div>
   </div>
@@ -34,7 +33,7 @@
     <div class="row mt-4 p-4">
       <div class="col-sm-6 align-self-center order-first">
         <div class="text-center">
-          <img src="../assets/diabetes-cover.png" alt="Product info" class="img-fluid rounded">
+          <img src="#" alt="Product info" class="img-fluid rounded">
         </div>
       </div>
       <div class="col-sm-6 align-self-center">
@@ -60,14 +59,14 @@
     </div>
     <div class="col-sm-6 align-self-center mt-4">
       <div class="text-center">
-        <img src="../assets/aceFoodCover.png" alt="Product info" class="img-fluid rounded">
+        <img src="#" alt="Product info" class="img-fluid rounded">
       </div>
     </div>
   </div>
   <div class="row mt-4 p-4">
     <div class="col-sm-6 align-self-center order-first p-4">
       <div class="text-center">
-        <img src="../assets/cocoadecCover.png" alt="Product info" class="img-fluid rounded">
+        <img src="#" alt="Product info" class="img-fluid rounded">
       </div>
     </div>
     <div class="col-sm-6 align-self-center">
@@ -78,18 +77,18 @@
       </a>
     </div>
   </div>
-  <div class="row mt-4 p-4">
-    <div class="col-sm-6 align-self-center order-first">
-      <h3 class="product-name">Rouse</h3>
-      <p class="product-info">UI/UX Design of a Property Leasing Platform</p>
-      <h5 class="link-custom">Application Not yet Available</h5>
-    </div>
-    <div class="col-sm-6 align-self-center mt-4">
-      <div class="text-center">
-        <img src="../assets/rouseCover.png" alt="Product info" class="img-fluid rounded">
-      </div>
-    </div>
-  </div>
+<!--  <div class="row mt-4 p-4">-->
+<!--    <div class="col-sm-6 align-self-center order-first">-->
+<!--      <h3 class="product-name">Rouse</h3>-->
+<!--      <p class="product-info">User Interface Design of a Property Leasing Platform</p>-->
+<!--      <h5 class="link-custom">Coming to the playstore soon...</h5>-->
+<!--    </div>-->
+<!--    <div class="col-sm-6 align-self-center mt-4">-->
+<!--      <div class="text-center">-->
+<!--        <img src="../assets/rouseCover.png" alt="Product info" class="img-fluid rounded">-->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </div>-->
 
 </div>
 </template>
@@ -102,7 +101,7 @@ export default {
 
 <style scoped>
 .mt-custom2 {
-  margin-top: 85px;
+  margin-top: 15px;
 }
 .product-name {
   font-family: 'Poppins', sans-serif;
@@ -166,13 +165,20 @@ export default {
 
 .mt-custom {
   margin-top: 200px;
+  margin-bottom: 10px;
 }
 
-.port-col {
-  background-color: rgba(199, 199, 199, 0.1);
-  height: 532px;
-  width: 532px;
+
+@media only screen and (max-width: 768px) {
+  /* For Mobile Devices */
+  .mt-custom {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+  }
 }
+
 
 h2 {
   font-family: 'Poppins', sans-serif;
@@ -192,16 +198,16 @@ h1 {
 .btn-warning {
   background-color: #FFB037;
   font-family: 'Poppins', sans-serif;
-  font-weight: bold;
   font-size: 14px;
   width: 170px;
   height: 52px;
-  margin-top: 30px;
+  margin-top: 12px;
   color: #FFFFFF;
+  border-radius: 20px;
 }
 
 .btn-warning:hover {
-  background-color: #FFFFFF;
+  background-color: rgba(199, 199, 199, 0.1);
   border-color: #FFB037;
   color: #FFB037;
 }

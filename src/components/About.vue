@@ -3,7 +3,7 @@
   <div class="position-absolute mt-4 ml-4">
     <h1>Hi, I'm Samuel</h1>
     <h2 class="mt-2">Software Engineer</h2>
-    <p class="text-wrap" style="width: 22rem">A software engineer with hands-on experience in developing web and mobile applications using different architectures. I currently work with Django, Vue & Kotlin</p>
+    <p class="text-wrap" style="width: 22rem">A software engineer with hands-on experience in developing web and native mobile applications using different architectures. I currently work with Tensorflow to implement machine learning in mobile applications</p>
   </div>
   </div>
 </template>

@@ -4,12 +4,12 @@
     <div class="container-fluid">
       <div class="container">
         <div class="row">
-          <div class="col">
-            <a href="https://www.twitter.com/ajibs_baba"><i class="fab fa-twitter fad-pad"></i></a>
-            <a href="https://www.github.com/AjibsBaba"><i class="fab fa-github fad-pad"></i></a>
-            <a href="https://www.instagram.com/ajibs_baba"><i class="fab fa-instagram fad-pad"></i></a>
-            <a href="https://www.linkedin.com/in/AjibsBaba"><i class="fab fa-linkedin fad-pad"></i></a>
-            <h4 class="mt-2 name-tag">© developerLomo 2021</h4>
+          <div class="col col-custom">
+            <a href="https://www.twitter.com/ajibs_baba"><i class="fab fa-twitter fad-pad fa-lg"></i></a>
+            <a href="https://www.github.com/AjibsBaba"><i class="fab fa-github fad-pad fa-lg"></i></a>
+            <a href="https://www.instagram.com/ajibs_baba"><i class="fab fa-instagram fad-pad fa-lg"></i></a>
+            <a href="https://www.linkedin.com/in/AjibsBaba"><i class="fab fa-linkedin fad-pad fa-lg"></i></a>
+            <h4><a class="mt-2 name-tag footer-link" href="https://www.ajibsbaba.com" target="_blank">© developerLomo 2021</a></h4>
           </div>
         </div>
 
@@ -29,7 +29,8 @@ export default {
 
 <style scoped>
 .fad-pad {
-  margin-right: 5px;
+  margin-right: 10px;
+  margin-bottom: 10px;
   color: #FFFFFF;
   opacity: 0.7;
   filter: alpha(opacity=70);
@@ -55,7 +56,7 @@ h4 {
 
 .yellow-box {
   background-color: #FFB037;
-  padding: 10px;
+  padding: 30px;
   position: absolute;
   height: auto;
   width: 100%;
@@ -63,7 +64,7 @@ h4 {
 
 .name-tag {
   font-family: 'Poppins', sans-serif;
-  font-size: 10px;
+  font-size: 12px;
   color: #FFFFFF;
 
 }
@@ -72,7 +73,7 @@ h4 {
   /* For Mobile Devices */
   .yellow-box {
     background-color: #FFB037;
-    padding: 10px;
+    padding: 30px;
     position: absolute;
     height: auto;
     text-align: center;
@@ -80,6 +81,13 @@ h4 {
   }
 }
 
+.footer-link {
+  text-decoration: none;
+}
+
+.col-custom {
+  text-align: center;
+}
 
 
 </style>
