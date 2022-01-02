@@ -8,11 +8,10 @@
             <a href="https://www.twitter.com/ajibs_baba"><i class="fab fa-twitter fad-pad fa-lg"></i></a>
             <a href="https://www.github.com/AjibsBaba"><i class="fab fa-github fad-pad fa-lg"></i></a>
             <a href="https://www.instagram.com/ajibs_baba"><i class="fab fa-instagram fad-pad fa-lg"></i></a>
-            <a href="https://www.linkedin.com/in/AjibsBaba"><i class="fab fa-linkedin fad-pad fa-lg"></i></a>
+            <a href="https://www.linkedin.com/in/AjibsBaba"><i class="fab fa-linkedin fad-pad-2 fa-lg"></i></a>
             <h4><a class="mt-2 name-tag footer-link" href="https://www.ajibsbaba.com" target="_blank">© developerLomo 2021</a></h4>
           </div>
         </div>
-
       </div>
       </div>
       <!-- Grid row -->
@@ -34,6 +33,18 @@ export default {
   color: #FFFFFF;
   opacity: 0.7;
   filter: alpha(opacity=70);
+}
+
+.fad-pad-2 {
+  margin-bottom: 10px;
+  color: #FFFFFF;
+  opacity: 0.7;
+  filter: alpha(opacity=70);
+}
+
+.fad-pad-2:hover {
+  opacity: 1.0;
+  filter: alpha(opacity=100);
 }
 
 .fad-pad:hover {

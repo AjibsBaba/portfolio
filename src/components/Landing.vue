@@ -1,6 +1,6 @@
 <template>
 <div class="container">
-  <div class="row">
+  <div class="row" style="margin-bottom: 100px">
     <div class="col-sm-8 align-self-center">
       <div class="mt-custom">
         <h3 class="display-3">I design & develop products that makes people's lives <b>easier.</b></h3>
@@ -10,7 +10,7 @@
       </div>
     </div>
   </div>
-  <div class="row" style="background-color: #FFB037; border-radius: 20px;">
+  <div class="row" style="background-color: #FFB037; border-radius: 20px; margin-bottom: 100px;">
     <div class="col-sm-6 align-self-center">
       <div class="ms-1 p-3">
         <h1 class="name-tag">Hi, I'm Samuel</h1>
@@ -30,10 +30,10 @@
       <h3 class="main">Projects</h3>
       <h5 class="mt-1 subtitle">Most Recent Works</h5>
     </div>
-    <div class="row mt-4">
+    <div class="row mt-4" style="margin-bottom: 50px; margin-top: 100px">
       <div class="col-sm-6 align-self-center order-first">
         <div class="text-center">
-          <img src="../assets/diabetesPredictionCover.svg" alt="Product info" class="img-fluid" style="border-radius: 20px;">
+          <img src="../assets/diabetesPredictionCover.svg" alt="Diabetes Prediction App Logo" class="img-fluid" style="border-radius: 20px;">
         </div>
       </div>
       <div class="col-sm-6 align-self-center">
@@ -47,7 +47,7 @@
       </div>
     </div>
   </div>
-  <div class="row mt-4">
+  <div class="row mt-4" style="margin-bottom: 50px;">
     <div class="col-sm-6 align-self-center order-lg-first">
       <h3 class="product-name">Acefood</h3>
       <p class="product-info">android application that predicts up to 10 classes of tomato disease using computer vision. Built with Tensorflow and Kotlin</p>
@@ -63,10 +63,10 @@
       </div>
     </div>
   </div>
-  <div class="row mt-4 pb-4">
+  <div class="row mt-4" style="margin-bottom: 50px">
     <div class="col-sm-6 align-self-center order-first">
       <div class="text-center">
-        <img src="../assets/cocoadecCover.svg" alt="Product info" class="img-fluid" style="border-radius: 20px;">
+        <img src="../assets/cocoadecCover.svg" alt="Cocoadec Logo(Brown Variant)" class="img-fluid" style="border-radius: 20px;">
       </div>
     </div>
     <div class="col-sm-6 align-self-center">
