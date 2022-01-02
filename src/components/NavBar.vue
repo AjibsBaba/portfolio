@@ -17,18 +17,4 @@ export default {
 </script>
 
 <style scoped>
-.navbar-toggler:focus,
-.navbar-toggler:active,
-.navbar-toggler {
-  outline: none;
-  box-shadow: none;
-  border-color: #FFFFFF;
-}
-.nav-item {
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: bold;
-}
-
-
 </style>

@@ -1,5 +1,5 @@
 <template>
-<div class="container mt-custom2">
+<div class="container">
   <div class="row">
     <div class="col-sm-8 align-self-center">
       <div class="mt-custom">
@@ -48,7 +48,7 @@
     </div>
   </div>
   <div class="row mt-4">
-    <div class="col-sm-6 align-self-center order-first">
+    <div class="col-sm-6 align-self-center order-lg-first">
       <h3 class="product-name">Acefood</h3>
       <p class="product-info">android application that predicts up to 10 classes of tomato disease using computer vision. Built with Tensorflow and Kotlin</p>
       <a href="#" style="text-decoration: none">
@@ -57,13 +57,13 @@
           </h5>
       </a>
     </div>
-    <div class="col-sm-6 align-self-center mt-4">
+    <div class="col-sm-6 align-self-center mt-4 order-first">
       <div class="text-center">
         <img src="../assets/acefoodCover.svg" alt="Acefood's Logo" class="img-fluid" style="border-radius: 20px;">
       </div>
     </div>
   </div>
-  <div class="row mt-4">
+  <div class="row mt-4 pb-4">
     <div class="col-sm-6 align-self-center order-first">
       <div class="text-center">
         <img src="../assets/cocoadecCover.svg" alt="Product info" class="img-fluid" style="border-radius: 20px;">
@@ -87,10 +87,6 @@ export default {
 </script>
 
 <style scoped>
-.mt-custom2 {
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
 .product-name {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
