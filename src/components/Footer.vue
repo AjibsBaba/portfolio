@@ -73,7 +73,7 @@ h4 {
   /* For Mobile Devices */
   .yellow-box {
     background-color: #FFB037;
-    padding: 30px;
+    padding: 20px;
     position: absolute;
     height: auto;
     text-align: center;

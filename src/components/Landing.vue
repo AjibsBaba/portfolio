@@ -3,8 +3,8 @@
   <div class="row">
     <div class="col-sm-8 align-self-center" style="height: 70vh">
       <div class="mt-custom">
-        <h3 class="display-3">I design and develop products that makes people's lives <b>easier.</b></h3>
-        <a href="https://www.linkedin.com/in/ajibsbaba" target="_blank" download>
+        <h3 class="display-3">I design & develop products that makes people's lives <b>easier.</b></h3>
+        <a href="mailto:samuelajibade22@gmail.com" target="_blank">
           <button class="btn btn-warning" type="button">Hire me</button>
         </a>
       </div>
@@ -25,7 +25,7 @@
       </div>
     </div>
   </div>
-  <div class="row mt-4 ms-1">
+  <div class="row mt-4">
     <div class="col">
       <h3 class="main">Projects</h3>
       <h5 class="mt-1 subtitle">Most Recent Works</h5>
@@ -102,6 +102,7 @@ export default {
 <style scoped>
 .mt-custom2 {
   margin-top: 15px;
+  margin-bottom: 15px;
 }
 .product-name {
   font-family: 'Poppins', sans-serif;
