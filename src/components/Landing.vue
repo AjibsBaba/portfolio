@@ -51,7 +51,7 @@
     <div class="col-sm-6 align-self-center order-lg-first">
       <h3 class="product-name">Acefood</h3>
       <p class="product-info">android application that predicts up to 10 classes of tomato disease using computer vision. Built with Tensorflow and Kotlin</p>
-      <a href="#" style="text-decoration: none">
+      <a href="https://appdistribution.firebase.dev/i/35977fe24f0d2b11" target="_blank" style="text-decoration: none">
           <h5 class="link-custom">
             Download Application
           </h5>
