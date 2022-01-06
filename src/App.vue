@@ -17,13 +17,14 @@ export default {
   name: 'App',
   metaInfo: {
     title: "Portfolio | Samuel Ajibade",
-    htmlAttrs: {
-      lang: "en-UK"
-    },
     meta: [
       {charset: "utf-8"},
-      {name: "description", content: "A Software Engineering Portfolio of Samuel Ajibade"},
-      {name: "keyword", content: "Portfolio, Software Engineer, Web Developer, Mobile Engineer, Android Developer, Linux"}
+      {name: "og:title", content: "Portfolio | Samuel Ajibade"},
+      {name: "og:url", content: "https://www.ajibsbaba.com"},
+      {name: "og:type", content: "website"},
+      {name: "og:image", content: "https://www.ajibsbaba.com/img/passport.1fa0f126.png"},
+      {name: "og:description", content: "A Software Engineering Portfolio of Samuel Ajibade"},
+      {name: "keyword", content: "Portfolio, Software Engineer, Web Developer, Mobile Engineer, Android Developer, Developer, Frontend Developer"}
     ]
   },
   components: {
