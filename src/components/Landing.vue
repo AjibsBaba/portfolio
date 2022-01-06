@@ -13,9 +13,9 @@
   <div class="row" style="background-color: #FFB037; border-radius: 20px; margin-bottom: 100px;">
     <div class="col-sm-6 align-self-center">
       <div class="ms-1 p-3">
-        <h1 class="name-tag">Hi, I'm Samuel</h1>
-        <h3 class="mt-2 position-tag">Software Engineer</h3>
-        <p class="mt-3 info">A software engineer with hands-on experience in developing web and native mobile applications using different architectures.
+        <h1 class="name-tag" style="color:#484848;">Hi, I'm Samuel</h1>
+        <h3 class="mt-2 position-tag" style="color:#484848;">Software Engineer</h3>
+        <p class="mt-3 info" style="color:#484848;">A software engineer with hands-on experience in developing web and native mobile applications using different architectures.
           I currently work Tensorflow to integrate machine learning in android applications</p>
       </div>
     </div>
