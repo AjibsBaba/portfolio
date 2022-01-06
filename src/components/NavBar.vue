@@ -2,7 +2,7 @@
 <div>
   <nav class="navbar navbar-expand-md navbar-light bg-trans fixed-top">
     <div class="container">
-      <a class="navbar-brand" href="">
+      <a class="navbar-brand" href="https://www.ajibsbaba.com">
         <img src="../assets/Lomo.svg" alt="logo" width="68px" height="46px">
       </a>
     </div>
