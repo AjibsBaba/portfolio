@@ -33,13 +33,13 @@
     <div class="row mt-4" style="margin-bottom: 50px; margin-top: 100px">
       <div class="col-sm-6 align-self-center order-first">
         <div class="text-center">
-          <img src="../assets/diabetesPredictionCover.svg" alt="Diabetes Prediction App Logo" class="img-fluid" style="border-radius: 20px;">
+          <img src="../assets/diabetesPredictionCover.svg" alt="Diabetes Prediction App Logo" class="img-fluid" width="2160" height="1080" style="border-radius: 20px;">
         </div>
       </div>
       <div class="col-sm-6 align-self-center">
         <h3 class="product-name">Diabetes Prediction App</h3>
         <p class="product-info">predicts diabetes mellitus type 2 with the aid of machine learning. Written in Flask, Html, CSS.</p>
-        <a href="https://diabetes-diagnosis.herokuapp.com/" style="text-decoration: none">
+        <a rel="noreferrer" target="_blank" href="https://diabetes-diagnosis.herokuapp.com/" style="text-decoration: none">
           <h5 class="link-custom">
             Visit Website
           </h5>
@@ -51,7 +51,7 @@
     <div class="col-sm-6 align-self-center order-lg-first">
       <h3 class="product-name">Acefood</h3>
       <p class="product-info">android application that predicts up to 10 classes of tomato disease using computer vision. Built with Tensorflow and Kotlin</p>
-      <a href="https://appdistribution.firebase.dev/i/35977fe24f0d2b11" target="_blank" style="text-decoration: none">
+      <a rel="noreferrer" href="https://appdistribution.firebase.dev/i/35977fe24f0d2b11" target="_blank" style="text-decoration: none">
           <h5 class="link-custom">
             Download Application
           </h5>
@@ -59,14 +59,14 @@
     </div>
     <div class="col-sm-6 align-self-center mt-4 order-first">
       <div class="text-center">
-        <img src="../assets/acefoodCover.svg" alt="Acefood's Logo" class="img-fluid" style="border-radius: 20px;">
+        <img src="../assets/acefoodCover.svg" alt="Acefood's Logo" class="img-fluid" width="2160" height="1080" style="border-radius: 20px;">
       </div>
     </div>
   </div>
   <div class="row mt-4 pb-4">
     <div class="col-sm-6 align-self-center order-first">
       <div class="text-center">
-        <img src="../assets/cocoadecCover.svg" alt="Cocoadec Logo(Brown Variant)" class="img-fluid" style="border-radius: 20px;">
+        <img src="../assets/cocoadecCover.svg" alt="Cocoadec Logo(Brown Variant)" class="img-fluid" width="2160" height="1080" style="border-radius: 20px;">
       </div>
     </div>
     <div class="col-sm-6 align-self-center">
