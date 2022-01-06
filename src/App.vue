@@ -15,6 +15,17 @@ import Footer from "@/components/Footer";
 
 export default {
   name: 'App',
+  metaInfo: {
+    title: "Portfolio | Samuel Ajibade",
+    htmlAttrs: {
+      lang: "en-UK"
+    },
+    meta: [
+      {charset: "utf-8"},
+      {name: "description", content: "A Software Engineering Portfolio of Samuel Ajibade"},
+      {name: "keyword", content: "Portfolio, Software Engineer, Web Developer, Mobile Engineer, Android Developer, Linux"}
+    ]
+  },
   components: {
     NavBar,
     Landing,
