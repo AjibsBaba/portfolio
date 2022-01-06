@@ -21,14 +21,14 @@
     </div>
     <div class="col-sm-6 align-self-center order-first p-4">
       <div class="text-center">
-        <img src="../assets/passport.png" class="img-fluid rounded" alt="Samuel Ajibade's Image">
+        <img src="../assets/passport.png" class="img-fluid rounded" width="421" height="421" alt="Samuel Ajibade's Image">
       </div>
     </div>
   </div>
   <div class="row mt-4">
     <div class="col">
       <h3 class="main">Projects</h3>
-      <h5 class="mt-1 subtitle">Most Recent Works</h5>
+      <h2 class="mt-1 subtitle">Most Recent Works</h2>
     </div>
     <div class="row mt-4" style="margin-bottom: 50px; margin-top: 100px">
       <div class="col-sm-6 align-self-center order-first">
@@ -40,9 +40,9 @@
         <h3 class="product-name">Diabetes Prediction App</h3>
         <p class="product-info">predicts diabetes mellitus type 2 with the aid of machine learning. Written in Flask, Html, CSS.</p>
         <a rel="noreferrer" target="_blank" href="https://diabetes-diagnosis.herokuapp.com/" style="text-decoration: none">
-          <h5 class="link-custom">
+          <h2 class="link-custom">
             Visit Website
-          </h5>
+          </h2>
              </a>
       </div>
     </div>
@@ -52,9 +52,9 @@
       <h3 class="product-name">Acefood</h3>
       <p class="product-info">android application that predicts up to 10 classes of tomato disease using computer vision. Built with Tensorflow and Kotlin</p>
       <a rel="noreferrer" href="https://appdistribution.firebase.dev/i/35977fe24f0d2b11" target="_blank" style="text-decoration: none">
-          <h5 class="link-custom">
+          <h2 class="link-custom">
             Download Application
-          </h5>
+          </h2>
       </a>
     </div>
     <div class="col-sm-6 align-self-center mt-4 order-first">
@@ -73,7 +73,7 @@
       <h3 class="product-name">Cocoadec</h3>
       <p class="product-info">User Interface Design for Cocoa Disease Prediction Website</p>
       <a href="#" style="text-decoration: none">
-        <h5 class="link-custom" >Launch Website</h5>
+        <h2 class="link-custom" >Launch Website</h2>
       </a>
     </div>
   </div>
