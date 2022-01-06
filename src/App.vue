@@ -25,6 +25,7 @@ export default {
       {name: "og:image", content: "https://www.ajibsbaba.com/img/passport.1fa0f126.png"},
       {name: "og:description", content: "A Software Engineering Portfolio of Samuel Ajibade"},
       {name: "description", content: "A Software Engineering Portfolio of Samuel Ajibade"},
+      {name: "theme-color", content: "#FFB037"},
       {name: "keyword", content: "Portfolio, Software Engineer, Web Developer, Mobile Engineer, Android Developer, Developer, Frontend Developer"}
     ]
   },
