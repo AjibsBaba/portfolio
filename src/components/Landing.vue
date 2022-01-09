@@ -3,7 +3,7 @@
   <div class="row" style="margin-bottom: 100px">
     <div class="col-sm-8 align-self-center">
       <div class="mt-custom">
-        <h3 class="display-3">I design & develop products that makes people's lives <b>easier.</b></h3>
+        <h3 class="display-3">I design & develop products that make people's lives <b>easier.</b></h3>
         <a href="mailto:samuelajibade22@gmail.com" target="_blank">
           <button class="btn btn-warning" type="button">Hire me</button>
         </a>
