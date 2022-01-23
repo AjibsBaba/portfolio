@@ -26,6 +26,8 @@ export default {
       {name: "og:description", content: "A Software Engineering Portfolio of Samuel Ajibade"},
       {name: "description", content: "A Software Engineering Portfolio of Samuel Ajibade"},
       {name: "theme-color", content: "#FFB037"},
+      {name: "msapplication-navbutton-color", content: "#FFB037"},
+      {name: "apple-mobile-web-app-status-bar-style", content: "#FFB037"},
       {name: "keyword", content: "Portfolio, Software Engineer, Web Developer, Mobile Engineer, Android Developer, Developer, Frontend Developer"}
     ]
   },
