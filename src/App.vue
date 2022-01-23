@@ -28,7 +28,7 @@ export default {
       {name: "theme-color", content: "#FFB037"},
       {name: "msapplication-navbutton-color", content: "#FFB037"},
       {name: "apple-mobile-web-app-status-bar-style", content: "#FFB037"},
-      {name: "keyword", content: "Portfolio, Software Engineer, Web Developer, Mobile Engineer, Android Developer, Developer, Frontend Developer"}
+      {name: "keyword", content: "Samuel Ajibade, Ajibade, developerlomo, lomo, Portfolio, Software Engineer, Web Developer, Mobile Engineer, Android Developer, Developer, Frontend Developer"}
     ]
   },
   components: {
