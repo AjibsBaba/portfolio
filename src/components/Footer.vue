@@ -5,7 +5,7 @@
       <div class="container">
         <div class="row">
           <div class="col col-custom">
-            <a href="https://www.linkedin.com/in/AjibsBaba"><i class="fab fa-linkedin fad-pad-2 fa-lg"></i></a>
+            <a href="https://www.linkedin.com/in/AjibsBaba"><i class="fab fa-linkedin fad-pad fa-lg"></i></a>
             <a href="https://www.github.com/AjibsBaba"><i class="fab fa-github-square fad-pad fa-lg"></i></a>
             <a href="https://www.twitter.com/ajibs_baba"><i class="fab fa-twitter-square fad-pad fa-lg"></i></a>
             <a href="https://www.instagram.com/ajibs_baba"><i class="fab fa-instagram-square fad-pad fa-lg"></i></a>
