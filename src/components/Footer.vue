@@ -5,10 +5,10 @@
       <div class="container">
         <div class="row">
           <div class="col col-custom">
-            <a href="https://www.twitter.com/ajibs_baba"><i class="fab fa-twitter fad-pad fa-lg"></i></a>
-            <a href="https://www.github.com/AjibsBaba"><i class="fab fa-github fad-pad fa-lg"></i></a>
-            <a href="https://www.instagram.com/ajibs_baba"><i class="fab fa-instagram fad-pad fa-lg"></i></a>
             <a href="https://www.linkedin.com/in/AjibsBaba"><i class="fab fa-linkedin fad-pad-2 fa-lg"></i></a>
+            <a href="https://www.github.com/AjibsBaba"><i class="fab fa-github-square fad-pad fa-lg"></i></a>
+            <a href="https://www.twitter.com/ajibs_baba"><i class="fab fa-twitter-square fad-pad fa-lg"></i></a>
+            <a href="https://www.instagram.com/ajibs_baba"><i class="fab fa-instagram-square fad-pad fa-lg"></i></a>
             <h4><a class="mt-2 name-tag footer-link" href="https://www.ajibsbaba.com" target="_blank">© developerLomo 2022</a></h4>
           </div>
         </div>
